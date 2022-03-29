@@ -1,0 +1,61 @@
+@import '@/layouts/variaveis.scss';
+
+.page{
+  background-color: $background-color;
+  min-height: 88.5vh;
+  width: 100%;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+.content-block{
+  background-color: $background-color-component;
+  width: auto;
+  height: auto;
+  padding: 2rem;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2rem;
+
+  h1{
+    text-align: center;
+    font-size: 19px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+  }
+  img{
+    margin: 2rem;
+    width: 8rem;
+    height: 7rem;
+  }
+  .btn-ir{
+    background-color:$standad-moss;
+    width: 100%;
+    height: 2rem;
+
+    text-align: center;
+    color: $full-white;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .c{
+    margin: 2rem;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(49, 49, 49, 0.27); 
+    box-shadow: 5px 5px 15px 5px rgba(49, 49, 49, 0.27);
+    display: flex;
+    flex-direction: column;
+  }
+  .card-one{
+    margin: 2rem;
+  }
+
+}
